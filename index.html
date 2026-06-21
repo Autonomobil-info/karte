@@ -229,7 +229,7 @@ L.control.zoom({position:'bottomright'}).addTo(map);
    maskeBeige        : Deckkraft der beigen Fläche außerhalb DE 0..1
    deTintDeckkraft   : Navy-Tönung ÜBER Deutschland 0..1
                        0 = reines Relief · 0.10–0.18 = sichtbar markig in Navy   */
-const RELIEF = { reliefSaettigung:1.5, schummerung:0.8 maskeBeige:0.9, deTintDeckkraft:0.0 };
+const RELIEF = { reliefSaettigung:1.5, schummerung:0.8, maskeBeige:0.9, deTintDeckkraft:0.0 };
 
 // Basis: farbiges Relief (erdige Höhentöne)
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
